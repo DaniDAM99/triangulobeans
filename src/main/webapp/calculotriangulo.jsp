@@ -22,6 +22,8 @@
         tri.setAltura(altura);
         %>
         
+        <h4>Base: <%= tri.getBase()%></h4>
+        <h4>Altura: <%= tri.getAltura()%></h4>
         <h4>Área: <%= tri.getArea() %></h4>
         <a href="index.jsp">Volver</a>
     </body>
